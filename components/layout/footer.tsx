@@ -46,8 +46,10 @@ export default function Footer() {
     {
       title: "Entreprise",
       links: [
+        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.home') ) },
         { name: ( t('Footer.company.links.about') ), href: ( t('Footer.company.href.about') ) },
-        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.team') ) },
+        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.portfolio') ) },
+        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.contact') ) },
         // { name: "Careers", href: "/careers" },
         // { name: "Partenaires", href: "/partners" },
       ],
@@ -58,6 +60,7 @@ export default function Footer() {
         { name: ( t('Footer.services.web_mobile') ), href: ( t('Footer.servicesCTA') ) },
         { name: ( t('Footer.services.ui_ux') ), href: ( t('Footer.servicesCTA') ) },
         { name: ( t('Footer.services.motion_ads') ), href: ( t('Footer.servicesCTA') ) },
+        { name: ( t('Footer.services.call_center') ), href: ( t('Footer.servicesCTA') ) },
       ],
     },
     {

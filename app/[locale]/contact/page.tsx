@@ -330,9 +330,9 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-slate-900 mb-2">{method.title}</h3>
                     <p className="text-slate-600 text-sm mb-4">{method.description}</p>
                     <Button variant="ghost" size="sm" className="text-second/80 hover:text-second hover:bg-second/10">
-                    <Link href={method.link}>
-                      {method.action}
-                    </Link>
+                      <Link href={method.link}>
+                        {method.action}
+                      </Link>
                     </Button>
                   </CardContent>
                 </Card>
