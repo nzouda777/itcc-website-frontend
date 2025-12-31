@@ -14,16 +14,16 @@
             "title": "Entreprise",
             "description": "Une expertise technique avancée pour transformer vos défis numériques en opportunités de croissance.",
             "links": {
+                "home": "Accueil",
                 "about": "À propos",
-                "team": "Équipe",
-                "careers": "Carrières",
-                "partners": "Partenaires"
+                "portfolio": "Portfolio",
+                "contact": "Contact"
             },
             "href": {
+                "home": "/fr",
                 "about": "/fr/about",
-                "team": "/fr/about#teams",
-                "careers": "/fr/careers",
-                "partners": "/fr/partners"
+                "portfolio": "/fr/portfolio",
+                "contact": "/fr/contact"
             }
         },
 
@@ -34,6 +34,7 @@
             "web_mobile": "Développement Web & Mobile",
             "ui_ux": "UI/UX & Design Graphique",
             "motion_ads": "Motion Design & Publicités",
+            "call_center": "Centre d'appel",
             "virtual_assistant": "Assistant Virtuel",
             "social_media": "Gestion de Communauté & Réseaux Sociaux",
             "devops_cloud": "DevSecOps & Conseil Cloud"
@@ -952,7 +953,7 @@
             },
             "phone": {
                 "title": "Téléphone",
-                "description": "+1 (706) 581-1963",
+                "description": "+1 (706) 581-1963, +237 656953649",
                 "action": "Planifier un appel"
             },
             "appointment": {
@@ -1014,8 +1015,8 @@
         "confirmDescription": "Merci pour votre message. Notre équipe vous contactera sous 24 heures pour discuter de votre projet.",
         "confirmHeading": "Prochaines étapes :",
         "firstStep": "Analyse de votre demande par notre équipe",
-        "seccondStep": "Contact sous 24 heures",
-        "thirdStep": "Planification d’un audit technique gratuit",
+        "thirdStep": "Notre équipe vous contactera",
+        "secondStep": "Planification d’un audit technique gratuit",
         "CTA": "Retour à l’accueil",
         "ctaDescription": "Question urgente ? Contactez-nous directement"
     }

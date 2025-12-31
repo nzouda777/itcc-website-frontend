@@ -46,10 +46,10 @@ export default function Footer() {
     {
       title: "Entreprise",
       links: [
-        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.home') ) },
+        { name: ( t('Footer.company.links.home') ), href: ( t('Footer.company.href.home') ) },
         { name: ( t('Footer.company.links.about') ), href: ( t('Footer.company.href.about') ) },
-        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.portfolio') ) },
-        { name: ( t('Footer.company.links.team') ), href: ( t('Footer.company.href.contact') ) },
+        { name: ( t('Footer.company.links.portfolio') ), href: ( t('Footer.company.href.portfolio') ) },
+        { name: ( t('Footer.company.links.contact') ), href: ( t('Footer.company.href.contact') ) },
         // { name: "Careers", href: "/careers" },
         // { name: "Partenaires", href: "/partners" },
       ],
@@ -64,7 +64,7 @@ export default function Footer() {
       ],
     },
     {
-      title: "",
+      title: "Services",
       links: [
         { name: ( t('Footer.services.virtual_assistant') ), href: ( t('Footer.servicesCTA') ) },
         { name: ( t('Footer.services.social_media') ), href: ( t('Footer.servicesCTA') ) },

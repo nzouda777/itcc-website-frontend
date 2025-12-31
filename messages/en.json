@@ -14,16 +14,16 @@
             "title": "Company",
             "description": "Advanced technical expertise to transform your digital challenges into growth opportunities.",
             "links": {
+                "home": "Home",
                 "about": "About",
-                "team": "Team",
-                "careers": "Careers",
-                "partners": "Partners"
+                "portfolio": "Portfolio",
+                "contact": "Contact"
             },
             "href": {
+                "home": "/en",
                 "about": "/en/about",
-                "team": "/en/about#teams",
-                "careers": "/en/careers",
-                "partners": "/en/partners"
+                "portfolio": "/en/portfolio",
+                "contact": "/en/contact"
             }
         },
         "services": {
@@ -31,6 +31,7 @@
             "web_mobile": "Web & Mobile Development",
             "ui_ux": "UI/UX & Graphic Design",
             "motion_ads": "Motion Design & Ads",
+            "call_center": "Call Center",
             "virtual_assistant": "Virtual Assistant",
             "social_media": "Community & Social Media Management",
             "devops_cloud": "DevSecOps & Cloud Consulting"
@@ -1015,8 +1016,8 @@
         "confirmDescription": "Thank you for your message. Our team will contact you within 24 hours to discuss your project.",
         "confirmHeading": "Next Steps:",
         "firstStep": "Analyse of your request by our team",
-        "seccondStep": "Contact within 24hours",
-        "thirdStep": "Free technical audit planning",
+        "thirdStep": "Reach back to you",
+        "secondStep": "Free technical audit planning",
         "CTA": "Back to home",
         "ctaDescription": "Urgent question? Contact us directly"
     }
